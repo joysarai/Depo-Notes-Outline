@@ -9,7 +9,7 @@
 
     body {
       min-height: 100vh;
-      background: #0f0f0f;
+      background: #0f0f0f
       font-family: 'Georgia', 'Times New Roman', serif;
       color: #e8e2d9;
       padding: 40px 24px
@@ -452,7 +452,7 @@ Rules:
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            model: "claude-sonnet-4-20250514",
+            model: "claude-sonnet-4-5",
             max_tokens: 1000,
             system: SYSTEM_PROMPT,
             messages: [{ role: "user", content: "Here are my spoken deposition notes:\n\n" + spokenNotes }]
